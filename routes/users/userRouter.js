@@ -11,5 +11,6 @@ userRouter
     .route('/:uid')
     .get(userController.getUserById)
     .put(userController.updateUserById)
+    .delete(userController.deleteUser)
 
 export default userRouter
