@@ -31,7 +31,7 @@ const memberSchema = new mongoose.Schema({
     last_remittance:Date,
     pac:String,
     cancel_date:Date,
-    pension_amonut:Number,
+    pension_amount:Number,
     effect_date:Date,
     effect_code:String,
     umi_num:String,
