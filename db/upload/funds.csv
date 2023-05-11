@@ -1,0 +1,58 @@
+fund_id,description
+10,Late Filing
+11,Interest
+12,Court Costs
+13,Attorney Fees
+14,Retiree Contribution Account
+15,Escrow (Old System)
+16,No Contract
+17,Cents Elimination
+20,Welfare Fund
+21,Welfare Fund
+22,Retire Contribution 
+23,Heavy Association Drug Testing
+30,Pension Fund
+31,Pension Fund (Ohio)
+34,Pension Fund (NBR)
+35,Pension Fund (NBR-OH)
+40,PA Apprentice Fund
+41,Ohio Apprentice Fund
+42,PA Apprentice Fund (1.00 Special Heavy)
+43,Ohio Apprentice Fund (1.00 Special Ohio)
+44,International Training Fund
+50,Industry Advancement
+51,CAP (Ohio)
+52,Builiding Industry Advancement
+53,Heavy Industry Advancement
+54,Keystone Industry Advancement
+55,Erie Industry Advancement
+60,United Way
+61,United Way (Ohio)
+70,Benefit Fund
+71,Benefit Fund (Ohio)
+80,Annuity Fund
+81,Annuity Fund (Ohio)
+90,Work Assessment
+91,Building & Social Fund (Erie)
+110,Defense Fund
+120,Social Fund
+130,Defense & Social
+140,PA Building Trades
+141,Ohio Building Trades
+142,District 2 B&S Fund
+143,District 2 Building Maintainence
+144,Ohio Building Trades
+145,District 2 General Account
+146,Ohio PAC 
+147,District 2 Contribution Account (Ohio)
+148,Scholarship Fund
+149,Misc. Apprentice
+150,W.P.A. PAC
+151,P.A.C.
+160,Ohio PAC 
+170,Erie Building & Social
+180,Defense Fund 
+181,Defense Fund - F.F.C. 
+182,Defense Fund - PA B.T.
+190,Building Fund
+900,Negative Report

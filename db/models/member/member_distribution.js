@@ -2,6 +2,7 @@ import mongoose, { Schema } from 'mongoose'
 
 const memberDistributionSchema = new mongoose.Schema({
     deposit_id:{type: Schema.Types.ObjectId, ref:'member_deposit'},
+    member_id:{type: Schema.Types.ObjectId, ref:'member'},
     fund_id:{type:Number, min:1, max:1000},
     amount:Number,
     period_covered:Date,

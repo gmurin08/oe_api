@@ -1,11 +1,13 @@
 import express from "express";
 const apiRouter = express.Router();
+
 import userRouter from "./users/userRouter.js";
+import memberRouter from './members/memberRouter.js'
+import contractorRouter from './contractors/contractorRouter.js'
 
 apiRouter.use('/users', userRouter)
-//TODO: Add member and contractor functionality
-// apiRouter.use('/members', memberRouter)
-// apiRouter.use('/contractors', contractorRouter)
+apiRouter.use('/members', memberRouter)
+apiRouter.use('/contractors', contractorRouter)
 
 
 export default apiRouter

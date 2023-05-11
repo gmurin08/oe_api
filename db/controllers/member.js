@@ -9,12 +9,12 @@ export function memberList(req,res){
 }
 
 export function getMemberById(req,res){
-    Member.findOne({"contractor_num":req.params.contractor_num})
+    Member.findOne({"_id":req.params.id})
     .then(member=>!member?res.status(404):res.status(200).json(member))
     .catch(e=>res.status(404).json(e))
 }
 
-export function createMember(req,res){
+export function addMember(req,res){
     Member.create({
         first_name:req.body.first_name,
         middle_name:req.body.middle_name,
